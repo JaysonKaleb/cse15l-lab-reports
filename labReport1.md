@@ -40,7 +40,7 @@
   * ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/2558d394-1cf4-44bf-bff0-98982b144df8)
   * Running `cd` with a directory as path results in the directory changing to `messages/`. This is not an error.
     
-* File as Path
+* File as Path:
   * The absolute path before the command:
   * ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/f3db2677-c7e2-4156-881b-5d8cfb7b2593)
   * The command ran:
@@ -50,7 +50,25 @@
 ***
 
 **`cat`**
-* No Arguments Given ![cmd](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/5910286f-f78a-44d5-b2a2-9e404ec88d5c)
-* Directory as Path
-* File as Path
+* No Arguments Given:
+  * The absolute path before the command:
+  * ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/ec6671e8-c3f7-4919-a058-bf2ca80ab730)
+  * The command ran:
+  * ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/322979ac-7b03-4621-92f2-afda9d9b119d)
+  * Running `cat` without an argument results in it returning nothing. This is an error because it requires a `ctrl+d`.
+    
+* Directory as Path:
+  * The absolute path before the command:
+  * ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/f3db2677-c7e2-4156-881b-5d8cfb7b2593)
+  * The command ran:
+  * ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/c138ad18-3b7f-4be2-a521-478a31e922ff)
+  * Running `cat` with a directory as path result in it returning that the arg is a directory. This is not an error.
+    
+* File as Path:
+  * The absolute path before the command:
+  * ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/f3db2677-c7e2-4156-881b-5d8cfb7b2593)
+  * The command ran:
+  * ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/70234d06-3bf1-4648-99c7-b885825949d2)
+  * Running `cat` with a file as path results in it returning the file's contents, i.e. `Hello.java`. This is not an error.
+
 ***
