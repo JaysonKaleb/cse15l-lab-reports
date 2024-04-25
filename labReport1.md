@@ -45,7 +45,7 @@
   * ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/f3db2677-c7e2-4156-881b-5d8cfb7b2593)
   * The command ran:
   * ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/1a4e095a-72d0-4eb6-a0bb-b7d787dd0ffe)
-  * Running `cd` with a file as path results in the directory not changing becuase its not a directory. This is an error because the given argument was invalid.
+  * Running `cd` with a file as path results in the directory not changing becuase it's not a directory. This is an error because the given argument was invalid.
 
 ***
 
@@ -55,14 +55,14 @@
   * ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/ec6671e8-c3f7-4919-a058-bf2ca80ab730)
   * The command ran:
   * ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/322979ac-7b03-4621-92f2-afda9d9b119d)
-  * Running `cat` without an argument results in it returning nothing. This is an error because it requires a `ctrl+d`.
+  * Running `cat` without an argument results in it returning the data's standard output. This is not an error.
     
 * Directory as Path:
   * The absolute path before the command:
   * ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/f3db2677-c7e2-4156-881b-5d8cfb7b2593)
   * The command ran:
   * ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/c138ad18-3b7f-4be2-a521-478a31e922ff)
-  * Running `cat` with a directory as path result in it returning that the arg is a directory. This is not an error.
+  * Running `cat` with a directory as path result in it returning that the arg is a directory. This is an error because `cat` can't be used on a directory.
     
 * File as Path:
   * The absolute path before the command:
