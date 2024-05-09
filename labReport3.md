@@ -1,4 +1,4 @@
-# Lab Report 39
+# Lab Report 3
 ## Isaac Chen Pid: A17832849
 
 **Part 1**
@@ -144,4 +144,3 @@
       * -X can be useful when you want to still look at the file's contents while being able to still use the terminal for the next command.
 
 * Source: [https://linuxize.com/post/less-command-in-linux/](https://linuxize.com/post/less-command-in-linux/)
-***
