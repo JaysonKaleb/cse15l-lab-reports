@@ -5,7 +5,7 @@
 
 ***
 
-* `ArrayTests`
+* `ArrayExamples reversed Method`
   * Failure-Inducing Output
   ```
   @Test
@@ -22,7 +22,38 @@
     ArrayExamples.reversed(input1);
     assertArrayEquals(new int[]{  }, input1);
 	}
-```
+  ```
+  * Symptom
+    * ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/1b78e32e-2546-4353-a917-179d06decd16)
+
+  *`The Bug`
+    * `Before`
+      ```
+      static int[] reversed(int[] arr) {
+      	int[] newArray = new int[arr.length];
+      	for(int i = 0; i < arr.length; i += 1) {
+      		arr[i] = newArray[arr.length - i - 1];
+      	}
+      	return arr;
+      }
+      ```
+    * `After`
+      ```
+      static int[] reversed(int[] arr) {
+    	int[] newArray = new int[arr.length];
+    	for(int i = 0; i < arr.length; i += 1) {
+     	 newArray[i] = arr[arr.length - i - 1];
+      	}
+       return newArray;
+      }
+      ```
+    * `Running Tests`
+        ![image](https://github.com/JaysonKaleb/cse15l-lab-reports/assets/165828220/1bef34a2-cfc7-4475-a78c-8c90b5677861)
+     
+  
+    * `Explanation`
+
+
 
 
 **Part 2**
